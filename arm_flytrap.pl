@@ -38,7 +38,7 @@ my $swap_dir = $FORUM_DIR . $SWAP_SUFFIX;
 #
 
 unless (-d $FORUM_DIR) {
-  log_msg("ERROR: Forum directory $FORUM_DIR not found. "Already armed or misconfigured?");
+  log_msg("ERROR: Forum directory $FORUM_DIR not found. Already armed or misconfigured?");
   exit 1;
 }
 
